@@ -31,7 +31,7 @@ def hello(world : str):
 hello("sama")
 ```
 
-![alt text](https://docs.ell.so/_static/gif1.webp)
+![hello sama](https://docs.ell.so/_static/gif1.webp)
 
 ### 2. Prompts are actually parameters of a machine learning model.
 
@@ -47,10 +47,7 @@ The process of prompt engineering involves many iterations, similar to the optim
 
 Prompt engineering goes from a dark art to a science with the right tools. **Ell Studio is a local, open source tool for prompt version control, monitoring, visualization**. With Ell Studio you can empiricize your prompt optimization process over time and catch regressions before it's too late.
 
-<picture>
-  <source srcset="https://docs.ell.so/_static/ell_studio_better.webp" type="image/webp">
-  <img src="docs/src/_static/ell_studio_better.webp" alt="ell studio demonstration">
-</picture>
+![ell studio demonstration](https://docs.ell.so/_static/ell_studio_better.webp)
 
 ```bash
 ell-studio --storage ./logdir 
